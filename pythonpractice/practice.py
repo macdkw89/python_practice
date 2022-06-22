@@ -1,4 +1,8 @@
-my_votes = int(input("How many votes did you get in the election? "))
-total_votes = int(input("What is the total votes in the election? "))
-percentage_votes = (my_votes / total_votes) * 100
-print("I received " + str(percentage_votes)+"% of the total votes.")
+name = 'Kevin'
+country = 'USA'
+age = 32
+hourly_wage = 20
+satisfied = True
+daily_wage = hourly_wage * 8
+print(str(name) + " is from the " + str(country) + " and heres more variables " + str(age) + " " + str(hourly_wage)  )
+print(f"{hourly_wage} {daily_wage}")
